@@ -25,7 +25,7 @@ if __name__ == '__main__':
                     # get the data of the reveal as a list - number then color, space separated
                     reveal_data = count.split()
 
-                    # validate the number of cubes of each color is within the contraints of the rules, invalidate it
+                    # validate the number of cubes of each color is within the constraints of the rules, invalidate it
                     # if there's too many cubes
                     if reveal_data[1] == 'red' and int(reveal_data[0]) > 12:
                         valid_game = False
